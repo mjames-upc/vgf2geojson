@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<plugin
+	name="vgfJson"
+	id="gov.noaa.nws.ncep.standalone.vgfConverter"
+	version="0.0.0"
+	provider-name="OTI">
+	
+    <requires>
+	<import plugin="org.eclipse.core.resources"/>
+    <import plugin="org.eclipse.ui"/>
+    <import plugin="org.eclipse.jface"/>
+    <import plugin="org.eclipse.core.commands" version="3.6.1"/>
+    </requires>
+
+    <runtime>
+	<library name="vgfJson.jar"/>
+    </runtime>
+	
+</plugin>
