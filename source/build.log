@@ -1,0 +1,69 @@
+compareVgf.c: In function ‘getVgType’:
+compareVgf.c:1477: warning: cast to pointer from integer of different size
+cvgv2x.c: In function ‘wnd2tag’:
+cvgv2x.c:1966: warning: comparison with string literal results in unspecified behavior
+cvgv2x.c: In function ‘jet2tag’:
+cvgv2x.c:3591: warning: comparison with string literal results in unspecified behavior
+cvgv2x.c:3591: warning: comparison with string literal results in unspecified behavior
+cvgv2x.c:3590: warning: ‘pgenType’ may be used uninitialized in this function
+vgf2geojson.c: In function ‘vgfToXml’:
+vgf2geojson.c:220: warning: too many arguments for format
+vgf2xml.o: In function `vgfToXml':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:101: multiple definition of `vgfToXml'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:101: first defined here
+vgf2xml.o: In function `llist_bubble_sort':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1811: multiple definition of `llist_bubble_sort'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1740: first defined here
+vgf2xml.o: In function `llist_bubble_sort_cloud_turb':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1894: multiple definition of `llist_bubble_sort_cloud_turb'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1823: first defined here
+vgf2xml.o: In function `convertElm':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:325: multiple definition of `convertElm'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:325: first defined here
+vgf2xml.o: In function `getMatchGrptyp':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1082: multiple definition of `getMatchGrptyp'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1082: first defined here
+vgf2xml.o: In function `llist_bubble_sort_contour_group':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1988: multiple definition of `llist_bubble_sort_contour_group'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1917: first defined here
+vgf2xml.o: In function `getWatch':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1011: multiple definition of `getWatch'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1011: first defined here
+vgf2xml.o: In function `getVolc':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1549: multiple definition of `getVolc'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1478: first defined here
+vgf2xml.o: In function `getCcf':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:912: multiple definition of `getCcf'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:912: first defined here
+vgf2xml.o: In function `getCloud':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1420: multiple definition of `getCloud'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1349: first defined here
+vgf2xml.o: In function `getTurb':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1479: multiple definition of `getTurb'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1408: first defined here
+vgf2xml.o: In function `getOutlooks':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1301: multiple definition of `getOutlooks'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1301: first defined here
+vgf2xml.o: In function `getGroupType':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:2121: multiple definition of `getGroupType'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:2050: first defined here
+vgf2xml.o: In function `getContour':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1131: multiple definition of `getContour'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1131: first defined here
+vgf2xml.o: In function `getSymLab':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1245: multiple definition of `getSymLab'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1245: first defined here
+vgf2xml.o: In function `writeEndingAsh':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1762: multiple definition of `writeEndingAsh'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1691: first defined here
+vgf2xml.o: In function `writeEndingCollection':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1625: multiple definition of `writeEndingCollection'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1554: first defined here
+vgf2xml.o: In function `getMatchContAttr':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:1032: multiple definition of `getMatchContAttr'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:1032: first defined here
+vgf2xml.o: In function `getSymType':
+/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2xml.c:2207: multiple definition of `getSymType'
+vgf2geojson.o:/home/gempak/GEMPAK7/gempak/utilities/a2lib/vgf2geojson.c:2136: first defined here
+collect2: ld returned 1 exit status
+mv: cannot stat `libVgfXml.so': No such file or directory
