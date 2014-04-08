@@ -113,8 +113,8 @@ include/xwpcmn.h
 include/xwprm.h 
 ' ) 
 
-A2SRC=$GEMPAK/utilities/vgf2geojson/source
-A2LIB=$GEMPAK/utilities/vgf2geojson/a2lib
+A2SRC=/home/gempak/vgf2json/source
+A2LIB=/home/gempak/vgf2json/a2lib
 
 mkdir -p ${A2LIB} 
 

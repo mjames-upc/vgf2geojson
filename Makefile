@@ -7,8 +7,8 @@
 
 all: cpBin mvLib 
 
-cpBin: ${GEMPAK}/utilities/vgf2geojson
-	cp ${GEMPAK}/utilities/vgf2geojson/vgf2geojson ${OS_BIN}
+cpBin: /home/gempak/vgf2json
+	cp /home/gempak/vgf2json/vgf2geo ${OS_BIN}
 
-mvLib: ${GEMPAK}/utilities/vgf2geojson/buildfile.sh 
-	sh ${GEMPAK}/utilities/vgf2geojson/buildfile.sh
+mvLib: /home/gempak/vgf2json/buildfile.sh 
+	sh /home/gempak/vgf2json/buildfile.sh
