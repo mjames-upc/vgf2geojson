@@ -5,7 +5,7 @@ usage(){
     cat <<EOF
       This scripts is used to convert vgf file to xml file.
 
-      Usage: vgf2json sourcePath[or sourceFile] destinationPath [-a activity[ subActivity]] [-t tableName]
+      Usage: vgf2geojson sourcePath[or sourceFile] destinationPath [-a activity[ subActivity]] [-t tableName]
       - <sourcedf>: the source directory or the source file.
       - <target>: the target directory
       - “-a” is the Pgen configuration option followed by the activity
@@ -42,13 +42,13 @@ mkdir -p $tgtpath
 if [ $NA_OS == "linux2.6.18_x86_64" ]; then
     file -L `which java` | grep "64-bit" > /dev/null
     if [ $? -eq 0 ]; then
-	export LD_LIBRARY_PATH=${OS_LIB}:~gempak/vgf2json/distVC/lib:$LD_LIBRARY_PATH
+	export LD_LIBRARY_PATH=${OS_LIB}:~gempak/vgf2geojson/distVC/lib:$LD_LIBRARY_PATH
     else
-	export LD_LIBRARY_PATH=${NAWIPS}/os/linux/lib:~gempak/vgf2json/distVC/lib:$LD_LIBRARY_PATH
+	export LD_LIBRARY_PATH=${NAWIPS}/os/linux/lib:~gempak/vgf2geojson/distVC/lib:$LD_LIBRARY_PATH
     fi
 else
-    export LD_LIBRARY_PATH=${OS_LIB}:/home/gempak/vgf2json/distVC/lib:$LD_LIBRARY_PATH
+    export LD_LIBRARY_PATH=${OS_LIB}:/home/gempak/vgf2geojson/distVC/lib:$LD_LIBRARY_PATH
 fi
 
-java -jar /home/gempak/vgf2json/vgfJson.jar $srcpath $tgtpath  $3 $4 $5 $6 $7
+java -jar /home/gempak/vgf2geojson/vgfJson.jar $srcpath $tgtpath  $3 $4 $5 $6 $7
 

@@ -1,9 +1,9 @@
 
-# vgf2json , the NAWIPS VG to GeoJSON converter
+# vgf2geojson , the NAWIPS VG to GeoJSON converter
 
 ##Usage 
 
-    vgf2json <inputfile> outputdir  - which will write a file with the name <inputfile>.json
+    vgf2geojson <inputfile> outputdir  - which will write a file with the name <inputfile>.json
 
 ##Purpose.
 
